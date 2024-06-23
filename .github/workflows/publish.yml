@@ -4,7 +4,7 @@ on:
     branches:
       - main
 permissions:
-  packages: write
+  id-token: write
   contents: read
 jobs:
   publish:
